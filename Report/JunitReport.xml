@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="12.173189">
+    <testcase classname="To Create a New Account for Facbook Application" name="To &#9;Create a Account" time="12.173189">
+        <system-out><![CDATA[Given To Launch the Chrome Browser and maximize the Window..................passed
+Then To Launch the Facebook URL.............................................passed
+And To Click Create New Account button......................................passed
+And To Pass the First_Name in Firstname_Textfield...........................passed
+And To pass the Second_Name in Surname_Textfield............................passed
+And To Pass the Number or Email in Num_Textfield............................passed
+And To pass the Password in Password_Textfield..............................passed
+Then To Close the Entire Browser............................................passed
+]]></system-out>
+    </testcase>
+</testsuite>

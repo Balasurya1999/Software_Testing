@@ -1,0 +1,199 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "To \tCreate a Account",
+        "description": "",
+        "id": "to-create-a-new-account-for-facbook-application;to--create-a-account",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4563517900,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "To Launch the Chrome Browser and maximize the Window",
+            "match": {
+              "location": "Fb_Registration.to_Launch_the_Chrome_Browser_and_maximize_the_Window()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3557410700,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "To Launch the Facebook URL",
+            "match": {
+              "location": "Fb_Registration.to_Launch_the_Facebook_URL()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 151905900,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "To Click Create New Account button",
+            "match": {
+              "location": "Fb_Registration.to_Click_Create_New_Account_Button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3410423800,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "To Pass the First_Name in Firstname_Textfield",
+            "match": {
+              "location": "Fb_Registration.to_Pass_the_First_Name_in_Firstname_Textfield(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Selenium",
+                  "Java",
+                  "Manual",
+                  "MySql"
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 128109600,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "To pass the Second_Name in Surname_Textfield",
+            "match": {
+              "location": "Fb_Registration.to_pass_the_Second_Name_in_Surname_Textfield(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "SecondName1",
+                  "Vijay"
+                ]
+              },
+              {
+                "cells": [
+                  "SecondName2",
+                  "Ajith"
+                ]
+              },
+              {
+                "cells": [
+                  "SecondName3",
+                  "Surya"
+                ]
+              },
+              {
+                "cells": [
+                  "SecondName4",
+                  "kamal"
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 210064700,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "To Pass the Number or Email in Num_Textfield",
+            "match": {
+              "location": "Fb_Registration.to_Pass_the_Number_or_Email_in_Num_Textfield(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "bala@gmail.com",
+                  "9443386878",
+                  "surya@gmail.com",
+                  "9698859978"
+                ]
+              },
+              {
+                "cells": [
+                  "selenium@gmail.com",
+                  "9443944457",
+                  "9443333867",
+                  "inmakes@gmail.com"
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 147015700,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "To pass the Password in Password_Textfield",
+            "match": {
+              "location": "Fb_Registration.to_pass_the_Password_in_Password_Textfield(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Password1",
+                  "Password2"
+                ]
+              },
+              {
+                "cells": [
+                  "123456789",
+                  "987654321"
+                ]
+              },
+              {
+                "cells": [
+                  "1122334455",
+                  "66778899"
+                ]
+              },
+              {
+                "cells": [
+                  "5599887744",
+                  "22887744"
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 46500,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "To Close the Entire Browser",
+            "match": {
+              "location": "Fb_Registration.to_Close_the_Entire_Browser()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "To Create a New Account for Facbook Application",
+    "description": "",
+    "id": "to-create-a-new-account-for-facbook-application",
+    "keyword": "Feature",
+    "uri": "src/test/resources/Facebook.feature",
+    "tags": []
+  }
+]
